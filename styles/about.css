@@ -1,0 +1,1272 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#all{
+    background-color: darkgreen;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.de{
+    margin-top: 30px;
+   font-size: 35px;
+   margin-left: 100px;
+   text-transform: capitalize;
+   color: rgb(255, 255, 255);
+   cursor: pointer;
+}
+.all2{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 35%;
+    gap: 35px;
+}
+.all2 li a{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .30s ease;
+}
+.all2 li a:hover{
+    color: rgba(104, 7, 230, 0);
+}
+.btn{
+    border: none;
+    background-color: rgb(255, 255, 255);
+    padding: 20px 30px;
+    margin-top: 25px;
+    margin-left: 50px;
+    font-size: 15px;
+    font-weight: bolder;
+    color: darkgreen;
+    text-transform: uppercase;
+    transition: all .30s ease;
+}
+.btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: green;
+}
+#about-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 12%;
+}
+.about-left img{
+    width: 420px;
+    height: 350px;
+    transform: translateY(10px);
+}
+.about-right {
+    width: 54%;
+}
+
+.about-right ul li {
+    display: flex;
+    align-items: center;
+}
+
+.about-right h1 {
+    color: #e74d06;
+    font-size: 37px;
+    margin-bottom: 5px;
+}
+
+.about-right p {
+    color: #444;
+    line-height: 26px;
+    font-size: 15px;
+}
+
+.about-right .address {
+    margin: 25px 0;
+}
+
+.about-right .address ul li {
+    margin-bottom: 5px;
+}
+
+.address .address-logo {
+    margin-right: 15px;
+    color: #e74d06;
+}
+
+.address .saprater {
+    margin: 0 35px;
+}
+
+.about-right .expertise ul {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.expertise h3 {
+    margin-bottom: 10px;
+}
+
+.expertise .expertise-logo {
+    font-size: 19px;
+    margin-right: 10px;
+    color: #e74d06;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    height: 70vh;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.261);
+}
+.ck{
+    display: flex;
+    flex-direction: row;
+}
+.ck2{
+    width: 45%;
+    margin-top: 100px;
+    margin-left: 70px;
+}
+.st{
+    font-size: 27px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-bottom: 25px;
+}
+#ema{
+    padding: .75em;
+    width: 100%;
+    height: 7vh;
+    border-width: 1px;
+    color: green;
+    border-radius: 3px;
+}
+#ema::placeholder{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.741);
+}
+#sub{
+    margin-top: 30px;
+    border: none;
+    padding: 15px 25px;
+    background-color: white;
+    color: #8e43f0;
+    letter-spacing: 2px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.ck3{
+    margin-left: 15%;
+    margin-top: 100px;
+}
+.cont{
+    color: white;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-left: 35%;
+    margin-bottom: 25px;
+}
+.add{
+    margin-left: 35%;
+    font-size: 17px;
+    margin-right: 8%;
+    text-transform: capitalize;
+    color: white;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.cal{
+    margin-left: 35%;    color: #8e43f0;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 17px;
+    transition: all .5s ease;
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+.ca{
+   position: relative;
+   top: 10%;
+   left: 35%;
+   transition: all .5s ease;
+   color: #8e43f0;
+}
+.ca:hover{
+    color: green;
+}
+
+/* Last */
+.last{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.468);
+    height: 15vh;
+    width: 100%;
+}
+.cop{
+    padding-top: 50px;
+    margin-left: 70px;
+    font-size: 15px;
+    text-transform: capitalize;
+
+}
+
+@media only screen and (min-width: 768px){
+    *{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        box-sizing: border-box;
+    }
+    body{
+        width: 100%;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    #all{
+        background-color: darkgreen;
+        padding-bottom: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+    .de{
+        width: 60%;
+       margin-top: 30px;
+       font-size: 30px;
+       margin-left: 35px;
+       text-transform: capitalize;
+       color: rgb(255, 255, 255);
+       cursor: pointer;
+    }
+    .all2{
+        display: none;
+        margin-top: 40px;
+        margin-left: 30%;
+        gap: 35px;
+    }
+    .all2 li a{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        text-decoration: none;
+        text-transform: capitalize;
+        transition: all .30s ease;
+    }
+    .all2 li a:hover{
+        color: rgba(104, 7, 230, 0);
+    }
+    .btn{
+        border: none;
+        background-color: rgb(255, 255, 255);
+        padding: 20px 30px;
+        margin-top: 25px;
+        margin-left: 250px;
+        font-size: 20px;
+        font-weight: bolder;
+        color: darkgreen;
+        text-transform: uppercase;
+        transition: all .30s ease;
+    }
+    .btn:hover{
+        background-color: rgb(255, 255, 255);
+        color: green;
+    }
+    #sec{
+        background: url(/img/marvel-spider-man-miles-morales-iz-3840x2160.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 50vh;
+        background-position: center;
+    }
+    h3{
+        text-align: center;
+        position: relative;
+        top: 40%;
+        left: 10%;
+        color: white;
+        font-size: 30px;
+        width: 75%;
+    }
+    .btn2{
+        position: relative;
+        border: none;
+        background-color: rgb(255, 255, 255);
+        top: 55%;
+        left:31.5%;
+        padding: 15px 25px;
+        font-size: 30px;
+        font-weight: bolder;
+        color: darkgreen;
+        text-transform: uppercase;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+    #service{
+        height: 130vh;
+    }
+    .😁{
+        margin-top: 50px;
+        color: black;
+        font-size: 45px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .one{
+        border: 3px solid black;
+        border-radius: 20px;
+        height: 35vh;
+        width: 550px;
+        margin-left: 35px;
+        margin-bottom: 35px;
+    }
+    .three{
+        border: 3px solid black;
+        border-radius: 20px;
+        height: 35vh;
+        width: 550px;
+        margin-left: 30px;
+    }
+    .all{
+        margin-top: 70px;
+        margin-left:50px;
+    }
+    
+    #about{
+        display: flex;
+        flex-direction: column;
+        background-color: darkgreen;
+    }
+    .abt{
+        margin-top: 125px;
+        width: 60%;
+        margin-left: 30px;
+    }
+    h4{
+        font-size: 58px;
+        color: white;
+        margin-bottom: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+    }
+    .ig{
+        margin-top: 80px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 650px;
+        height: 40vh;
+        margin-left: 30px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+    .dent{
+        width: 135%;
+        color: rgba(255, 255, 255, 0.551);
+        font-size: 20px;
+        line-height: 35px;
+    }
+    footer{
+        background-color: rgb(0, 0, 0);
+        height: 62vh;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.261);
+    }
+    .ck{
+        display: flex;
+        flex-direction: column;
+    }
+    .ck2{
+        width: 70%;
+        margin-top: 100px;
+        margin-left: 30px;
+    }
+    .st{
+        font-size: 33px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        margin-bottom: 25px;
+    }
+    #ema{
+        padding: .75em;
+        width: 100%;
+        height: 5vh;
+        border-width: 1px;
+        color: green;
+        border-radius: 3px;
+    }
+    #ema::placeholder{
+        font-size: 19px;
+        color: rgba(0, 0, 0, 0.741);
+    }
+    #sub{
+        margin-top: 30px;
+        border: none;
+        padding: 15px 25px;
+        background-color: white;
+        color: darkgreen;
+        letter-spacing: 2px;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: bolder;
+    }
+    
+    .ck3{
+        margin-left: 1%;
+        margin-top: 70px;
+    }
+    .cont{
+        color: white;
+        font-size: 33px;
+        text-transform: capitalize;
+        margin-left: 30px;
+        margin-bottom: 25px;
+    }
+    .add{
+        width: 80%;
+        margin-left: 30px;
+        font-size: 22px;
+        text-transform: capitalize;
+        color: white;
+        line-height: 30px;
+        margin-bottom: 35px;
+    }
+    .cal{
+        margin-left: 30px;
+        color: darkgreen;
+        text-decoration: none;
+        padding-top: 13px;
+        padding-left: 20px;
+        padding-bottom: 13px;
+        padding-right: 20px;
+        border-radius: 2px;
+        background-color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        font-size: 20px;
+        transition: all .5s ease;
+        text-align: center;
+        font-weight: bolder;
+        letter-spacing: 3px;
+    }
+    .ca{
+        display: flex;
+        flex-direction: column;
+        margin-top: 8%;
+        margin-left: -230px;
+       transition: all .5s ease;
+       color: darkgreen;
+       font-size: 20px;
+    }
+    .ca:hover{
+        color: green;
+    }
+    
+    /* Last */
+    .last{
+        background-color: black;
+        color: rgba(255, 255, 255, 0.468);
+        height: 9vh;
+        width: 100%;
+    }
+    .cop{
+        line-height: 30px;
+        width: 75%;
+        padding-top: 25px;
+        margin-left: 30px;
+        font-size: 18px;
+        text-transform: capitalize;
+    }
+    
+    
+}
+@media only screen and (min-width: 902px){
+    *{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        box-sizing: border-box;
+    }
+    body{
+        width: 100%;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    #all{
+        background-color: darkgreen;
+        padding-bottom: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+    .de{
+        width: 100%;
+       margin-top: 30px;
+       font-size: 30px;
+       margin-left: 35px;
+       text-transform: capitalize;
+       color: rgb(255, 255, 255);
+       cursor: pointer;
+    }
+    .all2{
+        display: flex;
+        margin-top: 40px;
+        margin-left: 20%;
+        gap: 35px;
+    }
+    .all2 li a{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        text-decoration: none;
+        text-transform: capitalize;
+        transition: all .30s ease;
+    }
+    .all2 li a:hover{
+        color: rgba(104, 7, 230, 0);
+    }
+    .btn{
+        border: none;
+        background-color: rgb(255, 255, 255);
+        padding: 20px 30px;
+        margin-top: 25px;
+        margin-left: 50px;
+        font-size: 20px;
+        font-weight: bolder;
+        color: darkgreen;
+        text-transform: uppercase;
+        transition: all .30s ease;
+    }
+    .btn:hover{
+        background-color: rgb(255, 255, 255);
+        color: green;
+    }
+    #sec{
+        background: url(/img/marvel-spider-man-miles-morales-iz-3840x2160.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 55vh;
+        background-position: center;
+    }
+    h3{
+        text-align: center;
+        position: relative;
+        top: 40%;
+        left: 10%;
+        color: white;
+        font-size: 30px;
+        width: 75%;
+    }
+    .btn2{
+        position: relative;
+        border: none;
+        background-color: rgb(255, 255, 255);
+        top: 55%;
+        left:31.5%;
+        padding: 15px 25px;
+        font-size: 30px;
+        font-weight: bolder;
+        color: darkgreen;
+        text-transform: uppercase;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+    #service{
+        height: 160vh;
+    }
+    .😁{
+        margin-top: 50px;
+        color: black;
+        font-size: 55px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .one{
+        border: 3px solid black;
+        border-radius: 20px;
+        height: 45vh;
+        width: 670px;
+        margin-left: 35px;
+        margin-bottom: 35px;
+    }
+    .three{
+        border: 3px solid black;
+        border-radius: 20px;
+        height: 45vh;
+        width: 670px;
+        margin-left: 30px;
+    }
+    .all{
+        margin-top: 70px;
+        margin-left:50px;
+    }
+    
+    #about{
+        display: flex;
+        flex-direction: column;
+        background-color: darkgreen;
+    }
+    .abt{
+        margin-top: 125px;
+        width: 60%;
+        margin-left: 30px;
+    }
+    h4{
+        font-size: 62px;
+        color: white;
+        margin-bottom: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+    }
+    .ig{
+        margin-top: 80px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 770px;
+        height: 50vh;
+        margin-left: 30px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+    .dent{
+        width: 120%;
+        color: rgba(255, 255, 255, 0.551);
+        font-size: 20px;
+        line-height: 35px;
+    }
+    footer{
+        background-color: rgb(0, 0, 0);
+        height: 65vh;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.261);
+    }
+    .ck{
+        display: flex;
+        flex-direction: column;
+    }
+    .ck2{
+        width: 70%;
+        margin-top: 100px;
+        margin-left: 30px;
+    }
+    .st{
+        font-size: 35px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        margin-bottom: 25px;
+    }
+    #ema{
+        padding: .75em;
+        width: 100%;
+        height: 5vh;
+        border-width: 1px;
+        color: green;
+        border-radius: 3px;
+    }
+    #ema::placeholder{
+        font-size: 20px;
+        color: rgba(0, 0, 0, 0.741);
+    }
+    #sub{
+        margin-top: 30px;
+        border: none;
+        padding: 15px 25px;
+        background-color: white;
+        color: darkgreen;
+        letter-spacing: 2px;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: bolder;
+    }
+    
+    .ck3{
+        margin-left: 1%;
+        margin-top: 70px;
+    }
+    .cont{
+        color: white;
+        font-size: 35px;
+        text-transform: capitalize;
+        margin-left: 30px;
+        margin-bottom: 25px;
+    }
+    .add{
+        width: 65%;
+        margin-left: 30px;
+        font-size: 23px;
+        text-transform: capitalize;
+        color: white;
+        line-height: 40px;
+        margin-bottom: 35px;
+    }
+    .cal{
+        margin-left: 30px;
+        color: darkgreen;
+        text-decoration: none;
+        padding-top: 13px;
+        padding-left: 20px;
+        padding-bottom: 13px;
+        padding-right: 20px;
+        border-radius: 2px;
+        background-color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        font-size: 20px;
+        transition: all .5s ease;
+        text-align: center;
+        font-weight: bolder;
+        letter-spacing: 3px;
+    }
+    .ca{
+        display: flex;
+        flex-direction: column;
+        margin-top: 8%;
+        margin-left: -310px;
+       transition: all .5s ease;
+       color: darkgreen;
+       font-size: 20px;
+    }
+    .ca:hover{
+        color: green;
+    }
+    
+    /* Last */
+    .last{
+        background-color: black;
+        color: rgba(255, 255, 255, 0.468);
+        height: 9vh;
+        width: 100%;
+    }
+    .cop{
+        line-height: 30px;
+        width: 75%;
+        padding-top: 25px;
+        margin-left: 30px;
+        font-size: 18px;
+        text-transform: capitalize;
+    }
+    
+    
+}
+@media only screen and (min-width: 1000px){
+    *{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        box-sizing: border-box;
+    }
+    body{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    #all{
+        background-color: darkgreen;
+        padding-bottom: 15px;
+        display: flex;
+        flex-direction: row;
+    }
+    .de{
+        margin-top: 30px;
+       font-size: 35px;
+       margin-left: 100px;
+       text-transform: capitalize;
+       color: rgb(255, 255, 255);
+       cursor: pointer;
+    }
+    .all2{
+        display: flex;
+        margin-top: 40px;
+        margin-left: 35%;
+        gap: 35px;
+    }
+    .all2 li a{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        text-decoration: none;
+        text-transform: capitalize;
+        transition: all .30s ease;
+    }
+    .all2 li a:hover{
+        color: rgba(104, 7, 230, 0);
+    }
+    .btn{
+        border: none;
+        background-color: rgb(255, 255, 255);
+        padding: 20px 30px;
+        margin-top: 25px;
+        margin-left: 50px;
+        font-size: 15px;
+        font-weight: bolder;
+        color: darkgreen;
+        text-transform: uppercase;
+        transition: all .30s ease;
+    }
+    .btn:hover{
+        background-color: darkgreen;
+        color: white;
+    }
+    #sec{
+        background: url(/img/marvel-spider-man-miles-morales-iz-3840x2160.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 90vh;
+    }
+    h3{
+        text-align: center;
+        position: relative;
+        top: 50%;
+        left: 35%;
+        color: white;
+        font-size: 35px;
+        width: 35%;
+    }
+    .btn2{
+        position: relative;
+        border: none;
+        background-color: rgb(255, 255, 255);
+        top: 55%;
+        left: 46%;
+        padding: 15px 25px;
+        font-size: 15px;
+        font-weight: bolder;
+        color: darkgreen;
+        text-transform: uppercase;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+    #service{
+        height: 80vh;
+    }
+    .😁{
+        margin-top: 50px;
+        color: black;
+        font-size: 40px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .one{
+        height: 45vh;
+        width: 400px;
+        margin-right: 20px;
+    }
+    .three{
+        height: 45vh;
+        width: 400px;
+    }
+    .all{
+        width: 100%;
+        display: flex;
+        margin-top: 70px;
+        margin-left:-20px;
+    }
+    
+    #about{
+        display: flex;
+        flex-direction: row;
+        background-color: darkgreen;
+    }
+    .abt{
+        margin-top: 125px;
+        width: 70%;
+        margin-left: 70px;
+    }
+    h4{
+        font-size: 65px;
+        color: white;
+        margin-bottom: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+    }
+    .ig{
+        margin-top: 125px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 80vh;
+        padding-right: 100px;
+    }
+    .dent{
+        width: 95%;
+        color: rgba(255, 255, 255, 0.551);
+        font-size: 16px;
+        line-height: 35px;
+    }
+    footer{
+        background-color: rgb(0, 0, 0);
+        height: 70vh;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.261);
+    }
+    .ck{
+        display: flex;
+        flex-direction: row;
+    }
+    .ck2{
+        width: 45%;
+        margin-top: 100px;
+        margin-left: 70px;
+    }
+    .st{
+        font-size: 27px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        margin-bottom: 25px;
+    }
+    #ema{
+        padding: .75em;
+        width: 100%;
+        height: 7vh;
+        border-width: 1px;
+        color: green;
+        border-radius: 3px;
+    }
+    #ema::placeholder{
+        font-size: 15px;
+        color: rgba(0, 0, 0, 0.741);
+    }
+    #sub{
+        margin-top: 30px;
+        border: none;
+        padding: 15px 25px;
+        background-color: white;
+        color: darkgreen;
+        letter-spacing: 2px;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: bolder;
+    }
+    
+    .ck3{
+        margin-left: 15%;
+        margin-top: 100px;
+    }
+    .cont{
+        color: white;
+        font-size: 25px;
+        text-transform: capitalize;
+        margin-left: 35%;
+        margin-bottom: 25px;
+    }
+    .add{
+        margin-left: 35%;
+        font-size: 17px;
+        margin-right: 8%;
+        text-transform: capitalize;
+        color: white;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+    .cal{
+        margin-left: 35%;    color: darkgreen;
+        text-decoration: none;
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-bottom: 10px;
+        padding-right: 20px;
+        border-radius: 2px;
+        background-color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        font-size: 17px;
+        transition: all .5s ease;
+        text-align: center;
+        font-weight: bolder;
+        letter-spacing: 3px;
+    }
+    .ca{
+       position: relative;
+       top: 10%;
+       left: 95%;
+       transition: all .5s ease;
+       color: darkgreen;
+    }
+    .ca:hover{
+        color: green;
+    }
+    
+    /* Last */
+    .last{
+        background-color: black;
+        color: rgba(255, 255, 255, 0.468);
+        height: 15vh;
+        width: 100%;
+    }
+    .cop{
+        padding-top: 50px;
+        margin-left: 70px;
+        font-size: 15px;
+        text-transform: capitalize;
+    
+    }
+        
+}
+@media only screen and (max-width: 480px){
+    *{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        box-sizing: border-box;
+    }
+    body{
+        width: 100%;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    #all{
+        background-color: darkgreen;
+        padding-bottom: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+    .de{
+        width: 50%;
+       margin-top: 30px;
+       font-size: 25px;
+       margin-left: 50px;
+       text-transform: capitalize;
+       color: rgb(255, 255, 255);
+       cursor: pointer;
+    }
+    .all2{
+        display: none;
+        margin-top: 40px;
+        margin-left: 30%;
+        gap: 35px;
+    }
+    .all2 li a{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        text-decoration: none;
+        text-transform: capitalize;
+        transition: all .30s ease;
+    }
+    .all2 li a:hover{
+        color: rgba(104, 7, 230, 0);
+    }
+    .btn{
+        border: none;
+        background-color: rgb(255, 255, 255);
+        padding: 20px 30px;
+        margin-top: 25px;
+        margin-left: 20px;
+        font-size: 15px;
+        font-weight: bolder;
+        color: darkgreen;
+        text-transform: uppercase;
+        transition: all .30s ease;
+    }
+    .btn:hover{
+        background-color: rgb(255, 255, 255);
+        color: green;
+    }
+    #sec{
+        background: url(/img/marvel-spider-man-miles-morales-iz-3840x2160.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 75vh;
+        background-position: center;
+    }
+    h3{
+        text-align: center;
+        position: relative;
+        top: 40%;
+        left: 10%;
+        color: white;
+        font-size: 30px;
+        width: 75%;
+    }
+    .btn2{
+        position: relative;
+        border: none;
+        background-color: rgb(255, 255, 255);
+        top: 55%;
+        left: 24.5%;
+        padding: 15px 25px;
+        font-size: 30px;
+        font-weight: bolder;
+        color: darkgreen;
+        text-transform: uppercase;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+    #service{
+        height: 115vh;
+    }
+    .😁{
+        margin-top: 50px;
+        color: black;
+        font-size: 40px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .one{
+        border: 3px solid black;
+        border-radius: 20px;
+        height: 30vh;
+        width: 350px;
+        margin-left: -10px;
+        margin-bottom: 35px;
+    }
+    .three{
+        border: 3px solid black;
+        border-radius: 20px;
+        height: 30vh;
+        width: 350px;
+        margin-left: -10px;
+    }
+    .all{
+        margin-top: 70px;
+        margin-left:50px;
+    }
+    
+    #about{
+        display: flex;
+        flex-direction: column;
+        background-color: darkgreen;
+    }
+    .abt{
+        margin-top: 125px;
+        width: 60%;
+        margin-left: 30px;
+    }
+    h4{
+        font-size: 55px;
+        color: white;
+        margin-bottom: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+    }
+    .ig{
+        margin-top: 80px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 460px;
+        height: 30vh;
+        margin-left: 30px;
+        border-radius: 10px;
+    }
+    .dent{
+        width: 135%;
+        color: rgba(255, 255, 255, 0.551);
+        font-size: 16px;
+        line-height: 35px;
+    }
+    footer{
+        background-color: rgb(0, 0, 0);
+        height: 60vh;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.261);
+    }
+    .ck{
+        display: flex;
+        flex-direction: column;
+    }
+    .ck2{
+        width: 70%;
+        margin-top: 100px;
+        margin-left: 30px;
+    }
+    .st{
+        font-size: 30px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        margin-bottom: 25px;
+    }
+    #ema{
+        padding: .75em;
+        width: 100%;
+        height: 5vh;
+        border-width: 1px;
+        color: green;
+        border-radius: 3px;
+    }
+    #ema::placeholder{
+        font-size: 18px;
+        color: rgba(0, 0, 0, 0.741);
+    }
+    #sub{
+        margin-top: 30px;
+        border: none;
+        padding: 15px 25px;
+        background-color: white;
+        color: darkgreen;
+        letter-spacing: 2px;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: bolder;
+    }
+    
+    .ck3{
+        margin-left: 1%;
+        margin-top: 70px;
+    }
+    .cont{
+        color: white;
+        font-size: 30px;
+        text-transform: capitalize;
+        margin-left: 30px;
+        margin-bottom: 25px;
+    }
+    .add{
+        width: 75%;
+        margin-left: 30px;
+        font-size: 18px;
+        text-transform: capitalize;
+        color: white;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+    .cal{
+        margin-left: 30px;
+        color: darkgreen;
+        text-decoration: none;
+        padding-top: 13px;
+        padding-left: 20px;
+        padding-bottom: 13px;
+        padding-right: 20px;
+        border-radius: 2px;
+        background-color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        font-size: 20px;
+        transition: all .5s ease;
+        text-align: center;
+        font-weight: bolder;
+        letter-spacing: 3px;
+    }
+    .ca{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+        margin-left: -130px;
+       transition: all .5s ease;
+       color: darkgreen;
+       font-size: 20px;
+    }
+    .ca:hover{
+        color: green;
+    }
+    
+    /* Last */
+    .last{
+        background-color: black;
+        color: rgba(255, 255, 255, 0.468);
+        height: 9vh;
+        width: 100%;
+    }
+    .cop{
+        padding-top: 25px;
+        margin-left: 30px;
+        font-size: 15px;
+        text-transform: capitalize;
+    }
+    
+    
+}
